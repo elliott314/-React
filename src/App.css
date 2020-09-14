@@ -1,0 +1,427 @@
+.header {
+  text-align: center;
+  color: chocolate;
+
+}
+
+.custom-btn-toolbar {
+ display: ruby-base-container!important;
+ margin-bottom: 3rem;
+ margin-left: 10rem;
+ 
+
+
+}
+.jum{
+  background-image: url('https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg');
+  background-repeat:no-repeat;
+  image-rendering: optimizeSpeed;
+}
+
+
+.mem{
+  margin: 100rem;
+
+}
+.custom-btn-toolbar > .btn {
+  margin-right:3rem;
+ 
+  
+}
+.p-3{
+  padding: 20rem 30rem;
+}
+.text-color{
+    text-decoration-color: violet;
+}
+*
+
+{
+    font-family: "Comic Sans MS";
+    color: white;
+
+}
+
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.contain
+{
+    height: 450px;   
+    width: 768px;
+    position: relative;
+
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 0px 30px 5px black;
+    margin: 10rem;
+    margin-left: 27rem;
+  
+     
+} 
+
+
+
+
+.intro
+{
+    background-color: rgba(128, 123, 141, 0.90);    
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: justify;
+    font-size:14px;
+    width: 36%;
+    height: 100%;
+    float: left;
+    padding: 5%;
+    position: relative;
+    animation-name: Ashma;
+    animation-duration: 3s;
+}
+@keyframes Ashma
+{
+    0%{
+        top: -94%;
+    }
+    50%
+    {
+        top:100px;
+    }
+    100%
+    {
+        top: 0px;
+    }
+}
+
+
+
+
+.logi
+{
+    display: block;
+    float: right;
+    width: 60%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(165, 42, 42, 0.90);
+
+
+    height: 100%;
+    text-align: center;
+    position: relative;
+    animation-name: login;
+    animation-duration: 3s;
+}
+@keyframes login
+{
+    0%{
+        top: 500%;
+    }
+    50%
+    {
+        top:-100px;
+    }
+    100%
+    {
+        top: 0px;
+    }
+}
+
+.signupbtn
+{
+    display: block;
+    float: right;
+    width: 60%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(165, 42, 42, 0.90);
+
+
+    height: 100%;
+    text-align: center;
+    position: relative;
+    animation-name: login;
+    animation-duration: 3s;
+
+}
+
+
+
+
+#logo
+{
+    width: 100px;
+    height: 100px;
+    position: static;
+    opacity: 0;
+    top: 0%;
+    transform: translate(50%, 50%);
+    border-radius: 50%;
+    background-color: rgba(165, 42, 42, 0.8);
+    
+
+    animation-name: logo;
+    animation-delay: 4s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes logo
+{
+    0%
+    {
+        left:50px;
+        top: 40%;
+        opacity: 0;
+    }
+    
+    75%{
+        left: -50px;
+        top: 40%;
+        opacity: 1;
+        transform: rotate(-360deg);
+    } 
+    100%
+    {
+        left: -50px;
+        top: 40%;
+        opacity: 1;
+        transform: rotate(-180deg);
+    }
+}
+
+
+
+#logo:hover
+{
+    box-shadow: 0px 0px 10px 0px black;
+    transform: rotate(360deg);
+}
+
+
+
+img
+{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background-color: white;
+    /* border-radius: 50%; */
+}
+h1
+{
+    text-align: center;
+    font-size:30px;
+    margin-top: 100px;
+}
+input{
+    margin-top: 25px; 
+    cursor: pointer;  
+    border-radius: 50px;
+    border-width: 0px;
+    outline: none;
+    color: black;
+}
+.username, .password, #email, #cpassword
+{
+    width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: black;
+  
+    
+}
+.password{
+  width: 100%;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+    margin: 0.5rem;
+    margin-left: 0.1rem;
+    color: black;
+  
+}
+.username:hover, .password:hover, #email:hover, #cpassword:hover
+{
+    box-shadow: 0px 0px 8px 1px black;
+    opacity: .9;
+}
+.username:hover, .password:hover, #email:hover, #cpassword:hover
+{
+    opacity: 9;
+}
+.username:focus, .password:focus, #email:focus, #cpassword:focus
+{
+    box-shadow: 0px 0px 8px 1px black;
+}
+
+
+
+.rememberMe
+{
+    height: 15rem;
+    width: 15rem;
+    font-size: 15rem;
+    
+}
+
+
+
+
+
+.loginbtn
+{
+    right:-750px;
+    height: 30px;
+    margin-left:9%;
+    width: 40%;
+    position: inherit;
+    animation-name: btn;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.signupbtn{
+  right:-650px;
+    height: 30px;
+    margin-left:20%;
+    width: 40%;
+    position: inherit;
+    animation-name: btn;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes btn
+{
+    0%{
+        right: -750px;
+    }
+
+    100%
+    {
+        right: 0px;
+    }
+}
+
+.loginbtn
+{
+    background-color: rgba(59, 177, 138, 0.90);
+}
+.signupbtn
+{
+    background-color: rgba(59, 177, 138, 0.90);
+}
+.loginbtn:hover, .signupbtn:hover
+{
+    box-shadow: 0px 0px 8px 1px black;
+    opacity: .9;
+    
+}
+
+
+h1, h2
+{
+    text-shadow: 0px 0px 10px black;
+}
+
+#about, h1
+{
+    width: 80%;
+}
+
+#about
+{
+    margin-bottom: 130px;
+}
+.frame{
+    text-align: center;
+    margin: 2em 0;
+}
+
+
+.slide-container {
+    width: 100%;
+    margin:auto;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  .lazy{
+      width: fit-content;
+  }
+  
+  .each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    width: 100%;
+  }
+  
+  .each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+  
+  .indicator {
+    width: 30px;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    border: 1px blue solid;
+  }
+  .indicator.active {
+    background: #000;
+    color: #fff;
+  }
+  
+.icon
+{
+    cursor: pointer;
+    filter: grayscale(1);
+    border-radius: 50%;
+    border:solid;
+    border-width: 1px;
+    height: 25px;
+    widows: 25px;
+    bottom: -15px;
+    margin-right: 4px;
+}
+.icon:hover
+{
+    box-shadow: 0px 0px 8px 1px black;
+    border-color: black;
+    filter: grayscale(0);
+}

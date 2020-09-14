@@ -1,0 +1,13 @@
+
+.container {
+    height: 150vh;
+  }
+  
+  .registrationFormContainer {
+    width: 100rem;
+  }
+  
+  .registrationFormLegend {
+    width: 50rem;
+    background: #dee2e6;
+  }

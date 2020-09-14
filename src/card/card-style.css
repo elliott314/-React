@@ -1,0 +1,96 @@
+
+.card{
+    width: 18rem;
+    height: 45rem;
+    place-content: 40rem;
+    margin-bottom: 20rem;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm85-tong-08_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e9751deb30bb1843d95a3fcb0d9ff116');
+}
+.card-size{
+    text-align: center;
+    height: 20rem;
+    width: 18rem;
+    place-content: 20rem;
+    margin-bottom: 20rem;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-cyan-star-background-image-image_264268.jpg');
+}
+.about-card{
+    text-align: center;
+    height: 1rem;
+    width: 18rem;
+    place-content: 20rem;
+    margin-bottom: 20rem;
+}
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0,0, 0.253) !important;
+}
+.card-body{
+    padding: 3rem 0 !important;
+}
+.card-bod{
+    text-align: center;
+    margin: 2em 0;
+    padding-right: 2rem;
+}
+.card-text{
+    font-size: 0.9rem;
+    color: #3a1f1f;
+    padding: 0.4rem, 1.9rem; 
+}
+.container-fluid.row{
+    padding-top: 6rem;
+}
+.card-img-top{
+    transform: scale(1);
+}
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+.overflow{
+    overflow: hidden;
+}
+.frame{
+    text-align: center;
+    margin: 2em 0;
+}
+.card-title{
+    color: black;
+}
+h3{
+    color: brown;
+}
+.imgg{
+    margin:10rem;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  
